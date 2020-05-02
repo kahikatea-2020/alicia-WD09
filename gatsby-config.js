@@ -24,10 +24,10 @@ if (!spaceId || !accessToken) {
 }
 
 module.exports = {
+  pathPrefix: `/alicia-wd09`,
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'gatsby-wd09-task',
   },
-  pathPrefix: '/gatsby-contentful-starter',
   plugins: [
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
